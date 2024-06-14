@@ -27,7 +27,7 @@ botaoconverter = customtkinter.CTkButton(janela, text="converter", text_color="b
 
 listamoedas = customtkinter.CTkScrollableFrame(janela)
 
-moedasdisponiveis = ["USD: Dolar americano", "EUR: Euro", "BRL: Real brasileiro", "BTC: Biticoen"]
+moedasdisponiveis = ["USD:  Dolar americano   $", "EUR:  Euro   €", "BRL:  Real brasileiro    R$", "BTC:  Biticoen   ₿"]
 for moedas in moedasdisponiveis:
     textomoeda = customtkinter.CTkLabel(listamoedas, text=moedas, font=("", 10), text_color="#618530")
     textomoeda.pack(padx=10, pady=10)
